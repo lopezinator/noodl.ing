@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Additional styles if needed */
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center p-4">
+    <div class="flex items-center">
+      <img src="https://source.unsplash.com/featured/?fish" alt="Logo" class="w-12 h-12 mr-2">
+      <h1 class="text-xl font-bold">Research Portal</h1>
+    </div>
+    <div class="flex items-center gap-4">
+      <div class="relative">
+        <input type="text" placeholder="Search" class="bg-gray-800 text-white rounded-full pl-4 pr-10 py-2 focus:outline-none focus:ring focus:border-blue-300">
+        <button class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10l5 5 5-5" />
+          </svg>
+        </button>
+      </div>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Login</button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="px-4 py-8">
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Discover groundbreaking research, simplified - directly to your inbox</h2>
+      <div class="flex justify-center">
+        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">Sign up (It's free and no spam!)</button>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-gray-800 p-4 rounded-lg">
+        <h3 class="font-semibold mb-2">Research 1</h3>
+        <p>Description of the research...</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-lg">
+        <h3 class="font-semibold mb-2">Research 2</h3>
+        <p>Description of the research...</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-lg">
+        <h3 class="font-semibold mb-2">Research 3</h3>
+        <p>Description of the research...</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 text-gray-500">
+    © 2023 Research Portal
+  </footer>
+
+  <script>
+    // Additional JavaScript if needed
+  </script>
+</body>
+</html>
